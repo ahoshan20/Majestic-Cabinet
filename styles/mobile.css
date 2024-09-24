@@ -1,0 +1,222 @@
+/* *********** Home Page********* */
+.bannar-caption{
+  width: 400px;
+}
+.bannar-caption-text h1{
+	font-size: 48px;
+	line-height: 30px;
+}
+.bannar-caption-text p{
+	font-size: 16px;
+}
+.bannar-caption a{
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 12px 25px;
+}
+/* Majestic section style here  */
+.majestic-container{
+	grid-template-columns: repeat(1,1fr);
+  row-gap: 50px;
+	padding: 50px 0;
+}
+.majestic-image{
+  order: 1;
+}
+.majestic-text{
+  order: 2;
+}
+
+
+/* *******Service Page ******** */
+.container{
+  width: 90%;
+}
+.nav-contact,
+.menubar {
+  text-align: left;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.logo img {
+  width: 100px;
+}
+header {
+  width: 100%;
+}
+.menu {
+  width: 100%;
+  right: 0;
+  top: 60px;
+  transform: translateX(0);
+}
+.nav-container .menu-icon {
+  width: 24px;
+  height: 15px;
+}
+span:nth-child(2) {
+  top: 8px;
+}
+span:nth-child(3) {
+  top: 16px;
+}
+.nav-container .nav-contact a {
+  padding: 0 0 0 10px;
+  font-size: 14px;
+  display: block;
+}
+.nav-container .nav-contact a i {
+  margin-right: 5px;
+}
+.nav-contact,
+.menubar {
+  margin: 0;
+}
+/* Bannar styles here  */
+.bannar-caption-text h1 {
+  font-size: 28px;
+}
+.bannar-caption-text p {
+  font-size: 14px;
+  padding-top: 5px;
+}
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.owl-nav span {
+  font-size: 36px;
+  padding: 0;
+}
+.owl-next,
+.owl-prev {
+  height: 40px;
+  width: 15px;
+  background-color: rgba(241, 11, 11, 0.301) !important;
+}
+/* Card section stylse here  */
+.card-section .card-container {
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+}
+.card, .blog-card{
+  width: 350px;
+  margin: 0 auto;
+}
+.card-section h2 {
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+.card-section h2::after {
+  top: 40px;
+}
+/* Product section styles here  */
+.product-section {
+  padding: 30px 0;
+}
+.product-section img {
+  width: 100%;
+}
+.product-section h2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.product-section h2 span {
+  color: #b31e22;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* Subscribe section styles here  */
+form {
+  flex-direction: column;
+  width: 100%;
+}
+.subscribe-section input[type="text"],
+.subscribe-section input[type="email"] {
+  width: 100%;
+  max-width: none;
+  margin: 15px 0 0 0;
+}
+.subscribe-section input[type="submit"] {
+  margin: 20px 0 0 0;
+}
+/* Footer section styles here  */
+.footer-section .top-logo img {
+  width: 150px;
+}
+.footer-caption {
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+.footer-caption p {
+  font-size: 16px;
+  padding: 0;
+  text-align: center;
+}
+.footer-section .bottom-footer {
+  padding: 10px 0;
+}
+.footer-section .bottom-footer p {
+  font-size: 10px;
+}
+
+
+/* ***********About Page*********** */
+/* Card section style here  */
+.card-section > img {
+	height: auto;
+  }
+.blog-section .blog-container {
+  grid-template-columns: 1fr;
+
+}
+.blog-section h2{
+	font-size: 24px;
+  padding: 10px 20px;
+
+
+}
+.bottom-blog-container{
+  grid-template-columns: repeat(1,1fr);
+  row-gap: 50px;
+}
+/* **********Contact Page ********* */
+.contact-section .contact-row{
+  grid-template-columns: repeat(1,1fr);
+  row-gap: 40px;
+
+}
+/* ************Portfolio Page*************  */
+/* porfolio section style here  */
+.portfolio-section {
+  margin: 60px 0;
+}
+.portfolio-section .slider-header {
+  width: 90%;
+  margin: 50px auto;
+  grid-template-columns: repeat(5, 1fr);
+}
+.portfolio-section .slider-header h3 {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.portfolio-section .portfolio-container {
+  grid-template-columns: 1fr;
+}
+/* ************Article Page ********** */
+/* Recent-article section style here  */
+.article-section .row{
+	grid-template-columns: repeat(1,1fr);
+}
+
+/* ***********Article Deteles Page ********* */
+.refacing-section .row{
+	grid-template-columns: repeat(1,1fr);
+}

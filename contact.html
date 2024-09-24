@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- Fontawsome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl carousel cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CDN  -->
+     <link rel="stylesheet" href="styles/contact.css">
+     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 576px)">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container container">
+                <div class="logo">
+                    <img src="images/logo/logo.png" alt="">
+                </div>
+                <div class="nav-contact">
+                    <a href="tel:1-702-457-1158"><i class="fa-solid fa-phone"></i>1-702-457-1158</a>
+                    <a href="mailto:info@majesticcabinetsllc.com"><i class="fa-regular fa-envelope"></i> info@majesticcabinetsllc.com</a>
+                </div>
+                <div class="menubar">
+                    <input type="checkbox" name="mobile-menu" id="toggle-icon">
+                    <label for="toggle-icon" class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="article.html">Article</a></li>
+                        <li><a href="article-deteles.html">Article Deteles</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="bannar">
+            <div class="owl-carousel">
+                <div class="bannar-image">
+                    <img src="images/bannar/bannar.png" alt="">
+                    <div class="bannar-caption">
+                        <div class="bannar-caption-text">
+                            <h1>Contact Us</h1>
+                            <p>Home/Contact</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bannar-image">
+                    <img src="images/bannar/bannar.png" alt="">
+                    <div class="bannar-caption">
+                        <div class="bannar-caption-text">
+                            <h1>Contact Us</h1>
+                            <p>Home/Contact</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bannar-image">
+                    <img src="images/bannar/bannar.png" alt="">
+                    <div class="bannar-caption">
+                        <div class="bannar-caption-text">
+                            <h1>Contact Us</h1>
+                            <p>Home/Contact</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+    </header>
+    <main>
+        <section class="contact-section">
+            <div class="contact-row container">
+                <div class="left-colum">
+                    <h2>Contat Us</h2>
+                    <p>Send us any questions you have about getting your FREE consultation. </p>
+                   <form action="https://formspree.io/f/mvgpjyyy"
+                   method="POST">
+                   <div class="row">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                   </div> 
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <textarea name="massege" id="message" rows="10" placeholder="Message"></textarea>
+                    <input id="submit" type="submit" value="Send Message">
+                   </form>
+                </div>
+                <div class="right-colum">
+                    <h2>Majestic Cabinets</h2>
+                    <p>4405 E Sahara Ave Unit 5 <br> Las Vegas NV 89104</p>
+                    <a href="tel: +1 702-457-1158" target="_blank"><span>Office:</span> +1 702-457-1158</a>
+                    <a href="tel: 702.354.5380" target="_blank">
+                        <span>Phone:</span> 702.354.5380</a>
+                    <a href="tel: 702.538.8914" target="_blank"><span>Fax:</span> 702.538.8914</a><a href="http://www.majesticcabinetsllc.com" target="_blank"><span>website:</span> www.majesticcabinetsllc.com</a>
+                </div>
+            </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d58410.109183500055!2d90.37086719999999!3d23.7961216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1726126991607!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </section>
+        <section class="subscribe-section">
+			<div class="subscribe-container container">
+				<form action="https://formspree.io/f/mrbzwddw"
+                method="POST">
+                <label>subscribe to our email list</label>
+				<input type="text" name="name" id="name" placeholder="Name">
+				<input type="Email" name="Email" id="sub-email" placeholder="Email">
+				<input type="submit" value="Submit">
+                </form>
+			</div>
+		</section>
+    </main>
+    <footer>
+		<!-- Footer section  -->
+		<section class="footer-section">
+			<div class="top-footer">
+				<div class="top-logo">
+					<img src="images/logo/logo-2.png" alt="">
+				</div>
+				<hr>
+				<div class="icon">
+					<p>4405 E Sahara Ave, Unit 5 <br> Las Vegas, NV 89104, USA</p>
+					<a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google"></i></a>
+					<a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<div class="footer-caption container">
+					<p>If there is something specific your looking for that you are unable to locate from Majestic Cabinets please contact us by phone or email... </p>
+				
+					<div class="bottom-contact">
+						<ul>
+							<li><a href="tel:+1 702-457-1158" target="_blank" rel="noopener noreferrer"><strong>Phone:</strong> +1 702-457-1158</a></li>
+							<li><a href="mailto:angelmajesticcabinets@yahoo.com" target="_blank" rel="noopener noreferrer"><strong>Email:</strong> angelmajesticcabinets@yahoo.com</a></li>
+							<li><a href="#" target="_blank" rel="noopener noreferrer"><strong>Web:</strong> MajesticCabinetsLLC.com</a></li>
+						</ul>
+					</div>
+					<div class="bottom-menu">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Portfolio</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Articles</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<p>Copyright 2019. All Right Reserved | Web Design by Once Interactive</p>
+			</div>
+		</section>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+})
+    </script>
+</body>
+</html>
