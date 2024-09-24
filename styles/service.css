@@ -148,6 +148,7 @@
  .bannar img{
 	width: 100%;
 	min-height: 200px;
+	object-fit: cover;
  }
 .bannar-caption{
 	position: absolute;

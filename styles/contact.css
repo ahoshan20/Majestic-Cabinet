@@ -146,6 +146,10 @@
 .bannar-image{
 	position: relative;
 }
+.bannar .bannar-image img{
+	width: 100%;
+	min-height: 200px;
+ }
 .bannar-caption{
 	position: absolute;
 	width: 815px;

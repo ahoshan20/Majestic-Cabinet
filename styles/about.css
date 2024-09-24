@@ -142,13 +142,13 @@
  }
  .bannar img{
 	width: 100%;
-	height: 100vh;
+	min-height: 200px;
 	object-fit: cover;
  }
 .bannar-caption{
 	position: absolute;
 	width: 816px;
-	top: 50%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center; z-index: 20;

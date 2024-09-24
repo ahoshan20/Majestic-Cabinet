@@ -140,13 +140,12 @@
 	position: relative;
 	background-image: linear-gradient(#ffffff00, #000);
  }
- .bannar-image .bannar-image{
+ .bannar-secton .bannar-image{
 	width: 100%;
-	height: 100vh;
  }
  .bannar-secton img{
 	width: 100%;
-	height: 100vh;
+	min-height: 350px;
  }
 .bannar-caption{
 	position: absolute;
