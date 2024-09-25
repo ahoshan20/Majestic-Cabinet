@@ -95,7 +95,7 @@ nav {
 	align-items: center;
 	width: 300px;
 	max-height: 0;
-	background-color: rgba(128, 128, 128, 0.397);
+	background-color: rgb(128, 128, 128);
 }
 
 .nav-container .menubar li {
@@ -184,7 +184,7 @@ span:nth-child(3) {
 
 .bannar img {
 	width: 100%;
-	min-height: 200px;
+	height: 60vh;
 	object-fit: cover;
 }
 

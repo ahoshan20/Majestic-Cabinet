@@ -70,7 +70,7 @@
     align-items: center;
 	width: 300px;
 	max-height: 0;
-	background-color: rgba(128, 128, 128, 0.397);
+	background-color: rgb(128, 128, 128);
 }
  .nav-container .menubar li{
 	border-bottom: 1px solid rgba(0, 0, 0, 0.13);
@@ -145,13 +145,13 @@
  }
  .bannar-secton img{
 	width: 100%;
-	min-height: 350px;
+	height: 80vh;
  }
 .bannar-caption{
 	position: absolute;
 	width: 816px;
 	max-width: 816px;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
